@@ -1,7 +1,9 @@
 # HeadFirstAdapterPattern
 
 ## Adapter Pattern
-The adapter pattern uses adapters to convert adaptees so that clients can use the target interface(interface class thatt the adaptee is going to be converted into) with the adaptees behaviours. There are two types of adapters: **class adapter** and **object adapters**. 
+The intent of the adapter pattern is to convert an interface into another.
+
+The adapter pattern uses adapters to convert adaptees so that clients can use the target interface(interface class that the adaptee is going to be converted into) with the adaptees behaviours. There are two types of adapters: **class adapter** and **object adapters**. 
 
 
 The class adapter uses inheritance, whereas the object adapter uses composition relationship and ties the adaptee to the adapter within the constructor.
